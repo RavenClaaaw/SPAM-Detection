@@ -4,9 +4,9 @@ import nltk # NATURAL LANGUAGE TOOLKIT
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import string
-from spellchecker import SpellChecker
 import nltk
 from nltk.stem import WordNetLemmatizer 
+from spellchecker import SpellChecker
 nltk.download('stopwords')
 nltk.download("punkt")
 nltk.download('omw-1.4')
